@@ -1,4 +1,4 @@
-# Priya Portfolio Website
+#  Portfolio Website
 
 ## Description  
 This is the personal portfolio website for **Priya G**, showcasing her profile, skills, projects and contact information. The site is built using a Bootstrap-based template and includes sections such as Home, About, Resume, Projects and Workshops.
