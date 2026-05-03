@@ -1,0 +1,50 @@
+/* Slider Container */
+.slider-container {
+    position: relative;
+    overflow: hidden;
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 20px 0;
+}
+
+.project-slider {
+    display: flex;
+    transition: transform 0.5s ease-in-out;
+    gap: 30px;
+}
+
+.project-card {
+    min-width: 300px; /* Fixed width for sliding cards */
+    background: var(--card-bg);
+    padding: 30px;
+    border-radius: 15px;
+    border-bottom: 4px solid var(--accent-wine);
+    text-align: center;
+}
+
+/* Project Icons */
+.proj-icon {
+    font-size: 3rem;
+    color: var(--accent-wine);
+    margin-bottom: 20px;
+}
+
+/* Slider Buttons */
+.slider-btn {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    background: var(--accent-wine);
+    color: white;
+    border: none;
+    padding: 15px;
+    cursor: pointer;
+    border-radius: 50%;
+    z-index: 10;
+    font-size: 1.2rem;
+    transition: 0.3s;
+}
+
+.slider-btn:hover { background: #fff; color: var(--accent-wine); }
+.prev { left: 10px; }
+.next { right: 10px; }
